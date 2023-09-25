@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 * {
     margin: 0;
     padding: 0;
@@ -19,6 +26,8 @@
 
 
 .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -31,8 +40,12 @@
 }
 
 .logotype {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     gap: 9px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -61,7 +74,11 @@
 }
 
 .left__title__text__end {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
 }
 
@@ -74,6 +91,8 @@
 }
 
 .title__old__price {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     width: 103px;
     height: 33px;
@@ -83,7 +102,11 @@
     font-size: 16px;
     color: #21201F;
     text-decoration: line-through;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
     justify-content: flex-end;
     background-color: rgb(224, 184, 255);
     border-radius: 500px;
@@ -100,6 +123,7 @@
     border-radius: 36px;
     border: none;
     background: #FFDE40;
+    -webkit-box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
     box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
 }
 
@@ -129,10 +153,33 @@
 }
 
 .content__text {
+    display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 362px 112px 400px;
     grid-template-columns: 362px 400px;
+    -ms-grid-rows: auto 112px auto;
     grid-template-rows: repeat(2, auto);
     gap: 112px;
+}
+
+.content__text>*:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+}
+
+.content__text>*:nth-child(2) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+}
+
+.content__text>*:nth-child(3) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 1;
+}
+
+.content__text>*:nth-child(4) {
+    -ms-grid-row: 3;
+    -ms-grid-column: 3;
 }
 
 .first__left__content__text,
@@ -186,10 +233,13 @@
 }
 
 .left__abonent__buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 260px;
     padding-top: 1125px;
     width: 419px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -224,11 +274,16 @@
 }
 
 .right__abonent__buy {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin-left: 736px;
     padding-top: 128px;
     width: 419px;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
     justify-content: flex-start;
 }
 
@@ -248,6 +303,7 @@
     border-radius: 36px;
     border: none;
     background: #FFDE40;
+    -webkit-box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
     box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
 }
 

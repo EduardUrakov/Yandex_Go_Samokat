@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @media (max-width: 375px) {
 
     .active {
@@ -85,7 +92,12 @@
     }
 
     .content__text {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
         flex-direction: column;
         gap: 24px;
     }
@@ -94,8 +106,12 @@
     .first__right__content,
     .second__left__content,
     .second__right__content {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
         margin-top: 0px;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
     }
 
@@ -159,6 +175,8 @@
     }
 
     .arrow__media {
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
         display: inline-flex;
         padding-top: 415px;
         padding-left: 133px;
@@ -178,6 +196,8 @@
     .left__button:hover,
     .right__button:hover {
         opacity: 1;
+        -webkit-transition: all .2s;
+        -o-transition: all .2s;
         transition: all .2s;
     }
 
