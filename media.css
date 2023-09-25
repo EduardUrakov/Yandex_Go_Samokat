@@ -1,0 +1,235 @@
+@media (max-width: 375px) {
+
+    .active {
+        display: block;
+    }
+
+    .bg__img {
+        display: none;
+    }
+
+    .bg__img__media {
+        display: inline;
+        position: absolute;
+        min-width: 375px;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
+
+    .left__title {
+        margin: 32px 32px 38px;
+    }
+
+    .left__logotype {
+        display: none;
+    }
+
+    .right__logotype {
+        display: none;
+    }
+
+    .logotype__media {
+        display: inline;
+    }
+
+    .left__title__header {
+        margin-top: 32px;
+        margin-bottom: 35px;
+        font-size: 36px;
+    }
+
+    .left__title__text,
+    .left__title__text__end {
+        font-size: 18px;
+        letter-spacing: -0.2px;
+    }
+
+    .title__new__price {
+        width: 56px;
+    }
+
+    .title__old__price {
+        width: 75px;
+        height: 23px;
+        margin-left: -27px;
+    }
+
+    .left__title__button {
+        padding: 18px 72px;
+        font-size: 18px;
+        position: fixed;
+        bottom: 24px;
+        right: 32px;
+    }
+
+
+    .right__title {
+        display: none;
+    }
+
+    .main__img__media {
+        display: inline;
+        margin-left: -28px;
+    }
+
+    .content {
+        margin: 0px 32px;
+    }
+
+    .content__header {
+        margin-top: 0px;
+        margin-bottom: 32px;
+        font-size: 32px;
+    }
+
+    .content__text {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+
+    .first__left__content,
+    .first__right__content,
+    .second__left__content,
+    .second__right__content {
+        display: flex;
+        margin-top: 0px;
+        align-items: center;
+    }
+
+    .first__left__img,
+    .first__right__img,
+    .second__left__img,
+    .second__right__img {
+        min-width: 83px;
+    }
+
+    .first__left__content__text,
+    .first__right__content__text,
+    .second__left__content__text,
+    .second__right__content__text {
+        margin-top: 0px;
+        margin-left: 16px;
+        font-size: 16px;
+        letter-spacing: -0.2px;
+    }
+
+    .abonent__previe__header {
+        margin: 72px 32px 32px 32px;
+        font-size: 32px;
+        color: #21201F;
+        letter-spacing: -1px;
+    }
+
+    .abonent__previe__text {
+        margin-left: 32px;
+        margin-right: 32px;
+        font-size: 16px;
+    }
+
+    .img_style_media {
+        display: inline;
+        position: absolute;
+        margin-left: 222px;
+        margin-top: -32px;
+    }
+
+    .first__img__media.active,
+    .second__img__media.active,
+    .third__img__media.active,
+    .fourth__img__media.active {
+        display: block;
+    }
+
+    .first__img__media,
+    .second__img__media,
+    .third__img__media,
+    .fourth__img__media {
+        position: absolute;
+        width: 343px;
+        margin: 48px 16px 24px 16px;
+        z-index: -1;
+        border-radius: 48px;
+    }
+
+    .abonent__previe__img {
+        display: none;
+    }
+
+    .arrow__media {
+        display: inline-flex;
+        padding-top: 415px;
+        padding-left: 133px;
+        gap: 12px;
+    }
+
+    .left__button,
+    .right__button {
+        border: none;
+        background: none;
+        width: 48px;
+        height: 48px;
+        background-image: url(img/arrow_ellipse_befor.png);
+        opacity: 0.37;
+    }
+
+    .left__button:hover,
+    .right__button:hover {
+        opacity: 1;
+        transition: all .2s;
+    }
+
+    .left__abonent__buy {
+        margin-left: 32px;
+        margin-right: 32px;
+        padding-top: 72px;
+        width: 311px;
+
+    }
+
+    .header__left__abonent__buy,
+    .header__right__abonent__buy {
+        margin-bottom: 32px;
+        font-size: 32px;
+    }
+
+    .text__left__abonent__buy,
+    .text__right__abonent__buy {
+        font-size: 16px;
+    }
+
+    .right__buy__img {
+        display: none;
+    }
+
+    .buy__img__media {
+        display: inline;
+        margin-left: -26px;
+        max-width: 360px;
+        max-height: 374px;
+    }
+
+    .left__buy__img {
+        display: none;
+    }
+
+    .right__abonent__buy {
+        margin: 0px 32px;
+        padding-top: 0px;
+        width: 311px;
+    }
+
+    .right__abonent__buy__button {
+        margin-top: 32px;
+        padding: 18px 86px;
+        font-size: 18px;
+    }
+
+    .footer {
+        margin: 72px 32px;
+        width: 311px;
+        font-size: 10px;
+    }
+}

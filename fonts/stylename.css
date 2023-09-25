@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Text-Regular";
+    src: url(text-regular.woff);
+
+}
+
+@font-face {
+    font-family: "Text-Black";
+    src: url(text-black.woff);
+}
+
+@font-face {
+    font-family: "Text-Medium";
+    src: url(text-medium.woff);
+}

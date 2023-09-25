@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.bg__img {
+    position: absolute;
+    min-width: 1200px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+}
+
+.left__content {
+    margin-top: 170px;
+    margin-left: 64px;
+}
+
+.titleOG {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+}
+
+.text__content {
+    width: 420px;
+    line-height: 100%;
+    margin-top: 44px;
+    font-family: "Text-Black";
+    font-size: 72px;
+    letter-spacing: -1px;
+}
+
+.right__content {
+    position: absolute;
+    margin-bottom: -160px;
+    margin-left: 329px;
+    z-index: -1;
+}
