@@ -127,6 +127,10 @@
     box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
 }
 
+.left__title__button:hover {
+    transform: scale(1.05);
+}
+
 .main__img__media {
     display: none;
 }
@@ -307,11 +311,19 @@
     box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
 }
 
+.right__abonent__buy__button:hover {
+    transform: scale(1.05);
+}
+
+a {
+    color: #C5C5C5;
+}
+
 .footer {
     margin-top: 111px;
     margin-bottom: 128px;
     margin-left: 260px;
-    width: 906px;
+    max-width: 906px;
     line-height: 120%;
     font-family: "Text-Regular";
     font-size: 13px;

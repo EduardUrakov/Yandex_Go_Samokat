@@ -5,7 +5,7 @@
 * Browsers: last 4 version
 */
 
-@media (max-width: 375px) {
+@media (min-width: 320px) and (max-width: 767px) {
 
     .active {
         display: block;
@@ -18,7 +18,7 @@
     .bg__img__media {
         display: inline;
         position: absolute;
-        min-width: 375px;
+        min-width: 767px;
         width: 100%;
         top: 0;
         left: 0;
@@ -68,7 +68,7 @@
         font-size: 18px;
         position: fixed;
         bottom: 24px;
-        right: 32px;
+        left: 32px;
     }
 
 
@@ -135,8 +135,6 @@
     .abonent__previe__header {
         margin: 72px 32px 32px 32px;
         font-size: 32px;
-        color: #21201F;
-        letter-spacing: -1px;
     }
 
     .abonent__previe__text {
@@ -205,8 +203,6 @@
         margin-left: 32px;
         margin-right: 32px;
         padding-top: 72px;
-        width: 311px;
-
     }
 
     .header__left__abonent__buy,
@@ -238,7 +234,6 @@
     .right__abonent__buy {
         margin: 0px 32px;
         padding-top: 0px;
-        width: 311px;
     }
 
     .right__abonent__buy__button {
@@ -249,7 +244,6 @@
 
     .footer {
         margin: 72px 32px;
-        width: 311px;
         font-size: 10px;
     }
 }
