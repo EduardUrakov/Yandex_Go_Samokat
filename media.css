@@ -18,7 +18,6 @@
     .bg__img__media {
         display: inline;
         position: absolute;
-        min-width: 767px;
         width: 100%;
         top: 0;
         left: 0;
