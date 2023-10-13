@@ -78,6 +78,7 @@
     .main__img__media {
         display: inline;
         margin-left: -28px;
+        width: 100%;
     }
 
     .content {
@@ -140,6 +141,7 @@
         margin-left: 32px;
         margin-right: 32px;
         font-size: 16px;
+        max-width: 100%;
     }
 
     .img_style_media {
@@ -161,7 +163,8 @@
     .third__img__media,
     .fourth__img__media {
         position: absolute;
-        width: 343px;
+        max-width: 343px;
+        width: 100%;
         margin: 48px 16px 24px 16px;
         z-index: -1;
         border-radius: 48px;
@@ -224,6 +227,7 @@
         margin-left: -26px;
         max-width: 360px;
         max-height: 374px;
+        width: 100%;
     }
 
     .left__buy__img {

@@ -242,7 +242,6 @@
     display: flex;
     margin-left: 260px;
     padding-top: 1125px;
-    width: 419px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
@@ -283,7 +282,6 @@
     display: flex;
     margin-left: 736px;
     padding-top: 128px;
-    width: 419px;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     -webkit-box-pack: start;
