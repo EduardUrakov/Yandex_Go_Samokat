@@ -1,19 +1,18 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v8.4.14,
-* Autoprefixer: v10.4.7
-* Browsers: last 4 version
-*/
-
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
+    box-sizing: border-box;
+}
+
+.title {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 calc(50% - 720px);
 }
 
 .bg__img {
     position: absolute;
-    min-width: 1440px;
     width: 100%;
     top: 0;
     left: 0;
@@ -24,15 +23,12 @@
     display: none;
 }
 
-
-.title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-}
-
 .left__title {
-    margin: 125px 262px 72px;
+    margin: 125px 0px 72px 260px;
+    max-width: 420px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
 }
 
 .logotype__media {
@@ -40,8 +36,6 @@
 }
 
 .logotype {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     gap: 9px;
     -webkit-box-align: center;
@@ -54,7 +48,6 @@
 }
 
 .left__title__header {
-    max-width: 420px;
     line-height: 100%;
     margin-top: 62px;
     margin-bottom: 48px;
@@ -94,10 +87,10 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    width: 103px;
+    width: 115px;
+    padding-right: 12px;
     height: 33px;
     margin-left: -45px;
-    padding-right: 12px;
     line-height: 120%;
     font-size: 16px;
     color: #21201F;
@@ -124,7 +117,8 @@
     border: none;
     background: #FFDE40;
     -webkit-box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
-    box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
+    box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
+    cursor: pointer;
 }
 
 .left__title__button:hover {
@@ -135,14 +129,17 @@
     display: none;
 }
 
-.right__title {
-    position: absolute;
+.right__title img {
     margin-top: 44px;
-    margin-left: 543px;
+    margin-left: -140Px;
+    width: 100%;
 }
 
 .content {
-    margin-left: 262px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 calc(50% - 720px);
+    flex-direction: column;
 }
 
 .content__header {
@@ -154,36 +151,22 @@
     font-size: 56px;
     color: #21201F;
     letter-spacing: -1px;
+    margin-left: 260px;
 }
 
 .content__text {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 362px 112px 400px;
-    grid-template-columns: 362px 400px;
-    -ms-grid-rows: auto 112px auto;
-    grid-template-rows: repeat(2, auto);
+    grid-template-columns: repeat(2, 1fr);
     gap: 112px;
+    margin-left: 260px;
+    justify-content: flex-start;
+    max-width: 875px;
 }
 
-.content__text>*:nth-child(1) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 1;
-}
-
-.content__text>*:nth-child(2) {
-    -ms-grid-row: 1;
-    -ms-grid-column: 3;
-}
-
-.content__text>*:nth-child(3) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 1;
-}
-
-.content__text>*:nth-child(4) {
-    -ms-grid-row: 3;
-    -ms-grid-column: 3;
+.first__left__content,
+.second__left__content {
+    max-width: 362px;
 }
 
 .first__left__content__text,
@@ -200,6 +183,13 @@
 .second__left__content,
 .second__right__content {
     margin-top: -52px;
+}
+
+.abonent__previe {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 calc(50% - 720px);
+    flex-direction: column;
 }
 
 .abonent__previe__header {
@@ -220,10 +210,11 @@
     font-family: "Text-Medium";
     font-size: 24px;
     color: #21201F;
+    position: relative;
 }
 
 .abonent__previe__img {
-    position: absolute;
+    width: 100%;
     margin-top: -290px;
 }
 
@@ -236,68 +227,67 @@
     display: none;
 }
 
-.left__abonent__buy {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.abonent__buy {
     display: flex;
-    margin-left: 260px;
-    padding-top: 1125px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 calc(50% - 720px);
+    flex-direction: column;
 }
 
-.header__left__abonent__buy,
-.header__right__abonent__buy {
+.top__abonent__buy {
+    display: flex;
+    margin-left: 260px;
+    flex-direction: row;
+}
+
+.header__top__abonent__buy,
+.header__bottom__abonent__buy {
     margin-bottom: 44px;
-    width: 407px;
     line-height: 100%;
     font-family: "Text-Black";
     font-size: 48px;
     color: #21201F;
     letter-spacing: -1px;
+    max-width: 420px;
 }
 
-.text__left__abonent__buy,
-.text__right__abonent__buy {
+.text__top__abonent__buy,
+.text__bottom__abonent__buy {
     line-height: 120%;
     font-family: "Text-Medium";
     font-size: 24px;
     color: #21201F;
+    max-width: 420px;
 }
 
-.right__buy__img {
-    position: absolute;
-    margin-left: 308px;
+.top__abonent__buy__img {
     margin-top: -241px;
-    z-index: -1;
+    width: 100%;
 }
 
 .buy__img__media {
     display: none;
 }
 
-.right__abonent__buy {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.bottom__abonent__buy {
     display: flex;
-    margin-left: 736px;
-    padding-top: 128px;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
+    margin-left: 260px;
+    flex-direction: row;
 }
 
-.left__buy__img {
-    position: absolute;
+.bottom__abonent__buy__img {
     margin-top: -138px;
-    margin-left: -736px;
+    width: 100%;
+}
+
+.right__bottom__abonent__buy {
+    position: relative;
 }
 
 .right__abonent__buy__button {
     margin-top: 48px;
-    padding: 24px 48px;
+    width: 282px;
+    height: 65px;
     line-height: 22px;
     font-family: "Text-Medium";
     font-size: 24px;
@@ -306,7 +296,8 @@
     border: none;
     background: #FFDE40;
     -webkit-box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
-    box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1)
+    box-shadow: 0px 0px 50px 60px rgba(255, 222, 64, 0.1);
+    cursor: pointer;
 }
 
 .right__abonent__buy__button:hover {
@@ -318,12 +309,19 @@ a {
 }
 
 .footer {
-    margin-top: 111px;
-    margin-bottom: 128px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 0 calc(50% - 720px);
+    flex-direction: column;
+    padding-top: 111px;
+    padding-bottom: 128px;
     margin-left: 260px;
-    max-width: 906px;
+}
+
+.footer__text {
     line-height: 120%;
     font-family: "Text-Regular";
     font-size: 13px;
     color: #C5C5C5;
+    max-width: 906px;
 }

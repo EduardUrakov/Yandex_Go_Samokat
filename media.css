@@ -18,10 +18,10 @@
     .bg__img__media {
         display: inline;
         position: absolute;
-        width: 100%;
         top: 0;
         left: 0;
         z-index: -1;
+        width: 100%;
     }
 
     .left__title {
@@ -60,14 +60,21 @@
         width: 75px;
         height: 23px;
         margin-left: -27px;
+        font-size: 13px;
+        padding-right: 5px;
     }
 
     .left__title__button {
-        padding: 18px 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 311px;
+        height: 49px;
         font-size: 18px;
         position: fixed;
         bottom: 24px;
-        left: 32px;
+        margin-left: calc(50% - 187px);
+        margin-right: calc(50% - 187px);
     }
 
 
@@ -82,32 +89,32 @@
     }
 
     .content {
-        margin: 0px 32px;
+        padding: 0px 32px;
     }
 
     .content__header {
         margin-top: 0px;
         margin-bottom: 32px;
         font-size: 32px;
+        margin-left: 0px;
     }
 
     .content__text {
-        display: -webkit-box;
-        display: -ms-flexbox;
         display: flex;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
         gap: 24px;
+        max-width: 767px;
+        margin-left: 0px;
     }
 
     .first__left__content,
     .first__right__content,
     .second__left__content,
     .second__right__content {
-        display: -webkit-box;
-        display: -ms-flexbox;
+
         display: flex;
         margin-top: 0px;
         -webkit-box-align: center;
@@ -133,13 +140,14 @@
     }
 
     .abonent__previe__header {
-        margin: 72px 32px 32px 32px;
+        margin: 0;
+        padding: 72px 32px 32px 32px;
         font-size: 32px;
     }
 
     .abonent__previe__text {
-        margin-left: 32px;
-        margin-right: 32px;
+        margin: 0;
+        padding: 0 32px;
         font-size: 16px;
         max-width: 100%;
     }
@@ -175,13 +183,12 @@
     }
 
     .arrow__media {
-        display: -webkit-inline-box;
-        display: -ms-inline-flexbox;
-        display: inline-flex;
+        display: flex;
         padding-top: 415px;
-        padding-left: 133px;
         gap: 12px;
+        justify-content: center;
     }
+
 
     .left__button,
     .right__button {
@@ -201,25 +208,41 @@
         transition: all .2s;
     }
 
-    .left__abonent__buy {
-        margin-left: 32px;
-        margin-right: 32px;
-        padding-top: 72px;
+    .top__abonent__buy {
+        margin: 0;
+        padding: 72px 32px 0px 32px;
     }
 
-    .header__left__abonent__buy,
-    .header__right__abonent__buy {
+    .header__top__abonent__buy,
+    .header__bottom__abonent__buy {
         margin-bottom: 32px;
         font-size: 32px;
+        width: auto;
     }
 
-    .text__left__abonent__buy,
-    .text__right__abonent__buy {
+    .text__top__abonent__buy,
+    .text__bottom__abonent__buy {
         font-size: 16px;
+        max-width: 767px;
     }
 
-    .right__buy__img {
+    .top__abonent__buy {
+        flex-direction: column;
+    }
+
+    .top__abonent__buy__img {
         display: none;
+    }
+
+    .media__img {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .box__buy__img__media {
+        display: flex;
+        justify-content: center;
     }
 
     .buy__img__media {
@@ -230,23 +253,34 @@
         width: 100%;
     }
 
-    .left__buy__img {
+    .bottom__abonent__buy__img {
         display: none;
     }
 
-    .right__abonent__buy {
-        margin: 0px 32px;
-        padding-top: 0px;
+    .bottom__abonent__buy {
+        margin: 0px;
+        padding: 0px 32px;
+    }
+
+    .abonent__buy__button {
+        display: flex;
+        justify-content: center;
     }
 
     .right__abonent__buy__button {
         margin-top: 32px;
-        padding: 18px 86px;
         font-size: 18px;
+        width: 311px;
+        height: 49px;
     }
 
     .footer {
-        margin: 72px 32px;
+        margin: 0;
+        padding: 72px 32px;
+        width: auto;
+    }
+
+    .footer {
         font-size: 10px;
     }
 }

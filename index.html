@@ -211,17 +211,18 @@
             <h1 class="abonent__previe__header">
                 Эксклюзивный доступ <br> к событиям Самокатов
             </h1>
-            <p class="abonent__previe__text">С абонементом — у вас доступ к специальным мероприятиям, скидки и классный
-                мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым
-                и слушали хор
-                Attaque de Panique
+            <p class="abonent__previe__text">С абонементом — у вас доступ к специальным мероприятиям, скидки и классный
+                мерч. В 2023 году мы танцевали на Даче Плюс с Антохой MC, катались на самокатах с Сергеем Мезенцевым
+                и слушали хор Attaque de Panique
             </p>
             <img class="abonent__previe__img" src="img/abonent_group.png" alt="abonent__previe__img">
-            <img class="img_style_media" src="img/img_style_media.png" alt="img__style__media">
-            <img class="first__img__media active" src="img/01img_media.png" alt="first__img__media">
-            <img class="second__img__media" src="img/02img_media.png" alt="second__img__media">
-            <img class="third__img__media" src="img/03img_media.png" alt="third__img__media">
-            <img class="fourth__img__media" src="img/04img_media.png" alt="fourth__img__media">
+            <div class="media__img">
+                <img class="img_style_media" src="img/img_style_media.png" alt="img__style__media">
+                <img class="first__img__media active" src="img/01img_media.png" alt="first__img__media">
+                <img class="second__img__media" src="img/02img_media.png" alt="second__img__media">
+                <img class="third__img__media" src="img/03img_media.png" alt="third__img__media">
+                <img class="fourth__img__media" src="img/04img_media.png" alt="fourth__img__media">
+            </div>
             <div class="arrow__media">
                 <button class="left__button">
                     <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -241,49 +242,69 @@
         </section>
 
         <section class="abonent__buy">
-            <article class="left__abonent__buy">
-                <h1 class="header__left__abonent__buy">
-                    Купить <br>абонемент <br>и вступить <br> в клуб смогут <br> те, кто в Плюсе
-                </h1>
-                <p class="text__left__abonent__buy">
-                    За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы можно тратить
-                    на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах Яндекса
-                </p>
-                <img class="right__buy__img" src="img/right_buy_img.png" alt="right_buy_img">
-                <img class="buy__img__media" src="img/buy_img_media.png" alt="buy__img__media">
+            <article class="top__abonent__buy">
+                <div class="left__top__abonent__buy">
+                    <h1 class="header__top__abonent__buy">
+                        Купить абонемент и&nbsp;вступить в&nbsp;клуб смогут&nbsp;те, кто в&nbsp;Плюсе
+                    </h1>
+                    <p class="text__top__abonent__buy">
+                        За каждую поездку на самокатах такие пользователи получают кешбэк баллами. Баллы можно тратить
+                        на поездки на самокатах и такси с Яндекс Go, покупки и заказы в других сервисах Яндекса
+                    </p>
+                </div>
+                <div class="right__top__abonent__buy">
+                    <img class="top__abonent__buy__img" src="img/right_buy_img.png" alt="right_buy_img">
+                </div>
+                <div class="box__buy__img__media">
+                    <img class="buy__img__media" src="img/buy_img_media.png" alt="buy__img__media">
+                </div>
             </article>
-            <article class="right__abonent__buy">
-                <img class="left__buy__img" src="img/left_buy_img.png" alt="left_buy_img">
-                <h1 class="header__right__abonent__buy">
-                    80% наших <br> пользователей <br> уже в клубе <br> и экономят <br> на поездках
-                </h1>
-                <p class="text__right__abonent__buy">
-                    Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона
-                    предупредим заранее, чтобы вы были готовы
-                </p>
-                <button class="right__abonent__buy__button"
-                    onclick="window.location.href = 'https://go.yandex/ru_ru/lp/rides/scooter'">
-                    Хочу абонемент
-                </button>
+            <article class="bottom__abonent__buy">
+                <div class="left__bottom__abonent__buy">
+                    <img class="bottom__abonent__buy__img" src="img/left_buy_img.png" alt="left_buy_img">
+                </div>
+                <div class="right__bottom__abonent__buy">
+                    <h1 class="header__bottom__abonent__buy">
+                        80% наших пользователей уже в&nbsp;клубе и&nbsp;экономят на&nbsp;поездках
+                    </h1>
+                    <p class="text__bottom__abonent__buy">
+                        Присоединяйтесь — опция начнёт действовать в начале сезона–2024. Об открытии сезона
+                        предупредим заранее, чтобы вы были готовы
+                    </p>
+                    <div class="abonent__buy__button">
+                        <button class="right__abonent__buy__button"
+                            onclick="window.location.href = 'https://go.yandex/ru_ru/lp/rides/scooter'">
+                            Хочу абонемент
+                        </button>
+                    </div>
+                </div>
             </article>
 
         </section>
 
     </main>
+
     <footer class="footer">
-        Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта сезона
-        2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на
-        доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа
-        <a href="https://yandex.ru/legal/scooters_seasonpass" target="_blank">yandex.ru/legal/scooters_seasonpass</a>.
-        Доп.опция доступна пользователям с активной подпиской (условия подписки:
-        <a href="https://yandex.ru/legal/yandex_plus_conditions"
-            target="_blank">yandex.ru/legal/yandex_plus_conditions</a>),
-        есть ограничения, подробнее:
-        <a href="https://yandex.ru/legal/yandex_plus_opzii_list"
-            target="_blank">yandex.ru/legal/yandex_plus_opzii_list</a>.
-        В случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю предоставляется 7
-        дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go — сервис
-        аренды электросамокатов на условиях: <a href="https://clck.ru/gwDGn" target="_blank">clck.ru/gwDGn</a>. 0+
+        <div class="footer__text">
+            Доп. опция «Абонемент на самокаты» на 8 месяцев (240 дней) активируется автоматически с момента старта
+            сезона
+            2024 г. самокатов Яндекс Go, далее предусмотрено автопродление доп.опции за 399 руб./мес. Сертификат на
+            доп.опцию «Абонемент на самокаты» на 8 месяцев оформляется на условиях документа
+            <a href="https://yandex.ru/legal/scooters_seasonpass"
+                target="_blank">yandex.ru/legal/scooters_seasonpass</a>.
+            Доп.опция доступна пользователям с активной подпиской (условия подписки:
+            <a href="https://yandex.ru/legal/yandex_plus_conditions"
+                target="_blank">yandex.ru/legal/yandex_plus_conditions</a>),
+            есть ограничения, подробнее:
+            <a href="https://yandex.ru/legal/yandex_plus_opzii_list"
+                target="_blank">yandex.ru/legal/yandex_plus_opzii_list</a>.
+            В случае отсутствия у пользователя активной подписки на дату активации доп.опции, пользователю
+            предоставляется 7
+            дней подписки Яндекс Плюс бесплатно, далее автопродление — 299 руб./мес. Электросамокаты Яндекс Go —
+            сервис
+            аренды электросамокатов на условиях: <a href="https://clck.ru/gwDGn" target="_blank">clck.ru/gwDGn</a>.
+            0+
+        </div>
     </footer>
 
 
